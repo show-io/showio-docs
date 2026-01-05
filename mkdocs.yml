@@ -25,6 +25,7 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
   features:
+    - navigation.instant
     - navigation.footer
     - navigation.path
     - navigation.indexes
@@ -33,9 +34,7 @@ theme:
 nav:
   - Home: index.md
   - API Reference:
-    - api_explainer.md
     - OSC API: osc_api.md
-    - New Page: new_page.md
 
 extra:
   generator: false
@@ -48,3 +47,9 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+
+validation:
+  omitted_files: warn
+  absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
+  unrecognized_links: warn
+  anchors: warn  # New in MkDocs 1.6

@@ -1,0 +1,10 @@
+/* Switch logo based on light/dark mode */
+[data-md-color-scheme="default"] .md-header__button.md-logo img,
+[data-md-color-scheme="default"] .md-logo img {
+  content: url("../assets/logo_lightmode.png");
+}
+
+[data-md-color-scheme="slate"] .md-header__button.md-logo img,
+[data-md-color-scheme="slate"] .md-logo img {
+  content: url("../assets/logo_darkmode.png");
+}

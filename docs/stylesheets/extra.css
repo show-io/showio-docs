@@ -37,3 +37,30 @@
 [data-md-color-scheme="slate"] .md-footer {
   background-color: #000000;
 }
+
+/* Body font - Arial for markdown content */
+body, p, li, td, th, .md-content, .md-typeset {
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure header title stays Arial Black and all caps */
+.md-header__title {
+  font-family: "Arial Black", "Arial Bold", Arial, sans-serif !important;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* Header fonts - Arial Black for all heading levels */
+h2, h3, h4, h5, h6,
+.md-typeset h2, .md-typeset h3,
+.md-typeset h4, .md-typeset h5, .md-typeset h6 {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-weight: 900;
+}
+
+/* H1 headings - Arial Black and all caps */
+h1, .md-typeset h1 {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}

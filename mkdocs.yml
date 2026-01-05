@@ -1,9 +1,8 @@
-site_name: SHOW TECHNOLOGIES DOCS
+site_name: Show Technologies Docs
 site_url: https://docs.show-technologies.com/
 theme:
   name: material
-  font: 
-    text: Open Sans
+  font: false
   language: en
   logo: assets/logo_darkmode.png
   favicon: assets/ico_darkmode.ico
@@ -33,8 +32,7 @@ theme:
 
 nav:
   - Home: index.md
-  - API Reference:
-    - OSC API: osc_api.md
+  - OSC API: osc_api.md
 
 extra:
   generator: false

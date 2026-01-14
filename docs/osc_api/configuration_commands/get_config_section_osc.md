@@ -6,7 +6,7 @@
 
 Queries the OSC configuration section.
 
-### Payload
+### Arguments
 
 none
 
@@ -16,6 +16,6 @@ none
 /sio/cfg/osc
 ```
 
-### Payload
+### Arguments
 
 - Arg 0 (`string`): OSC JSON object

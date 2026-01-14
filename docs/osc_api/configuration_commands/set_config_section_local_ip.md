@@ -6,7 +6,7 @@
 
 Overwrites the local IP configuration section.
 
-### Payload
+### Arguments
 
 - Arg 0 (`string` | `blob`): Local IP JSON object
 

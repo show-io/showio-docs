@@ -13,7 +13,7 @@ Commands are organized by section:
 :fontawesome-solid-gears: **[Node Configuration Commands](configuration_commands/overview.md)**  
 :fontawesome-solid-magnifying-glass: **[Node Discovery Commands](discovery_commands/overview.md)**  
 :fontawesome-solid-arrows-alt-h: **[I/O Control Commands](io_commands/overview.md)**  
-:fontawesome-regular-question-circle: **[Utility Commands](utility/overview.md)**  
+:fontawesome-regular-question-circle: **[Utility Commands](utility_commands/overview.md)**  
   
 Each Command is identified by a name and an Address. A Command may take a number of Arguments, which are pieces of data attached to an Address. In proper OSC terms, a Command described in this reference is implemented as an OSC Method on a ShowIO Node.
   

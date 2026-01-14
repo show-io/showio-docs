@@ -12,7 +12,7 @@ Configures a custom OSC message to be sent to subscribers when a digital input s
 
     Event messages have an encoded size limitation of 128 bytes.
 
-### Payload
+### Arguments
 
 - Arg 0 (`int` | `float` | `True` | `False`): Input state trigger (0/false for off, 1/true for on)
 - Arg 1 (`string` | `blob`): Address of new event message. Example: "/cue/20/go"

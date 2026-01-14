@@ -1,4 +1,4 @@
-## Utility Commands
+# Utility Commands
 
 These OSC commands provide utility functions for debugging and testing.
 

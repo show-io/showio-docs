@@ -8,9 +8,9 @@ Queries the device configuration.
 
 !!! warning
 
-    WILL BE DEPRECATED ONCE DEVICE CONFIG GETS TOO BIG TO FIT IN A UDP PACKET (or I figure out a cleverer way to do this)
+    Due to message size constraints, this Command will be deprecated in the near future.
 
-### Payload
+### Arguments
 
 none
 
@@ -20,6 +20,6 @@ none
 /sio/cfg
 ```
 
-### Payload
+### Arguments
 
 - Arg 0 (`string`): Device configuration JSON object

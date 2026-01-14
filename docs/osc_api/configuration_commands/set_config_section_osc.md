@@ -6,7 +6,7 @@
 
 Overwrites the OSC configuration section.
 
-### Payload
+### Arguments
 
 - Arg 0 (`string` | `blob`): OSC JSON object
 

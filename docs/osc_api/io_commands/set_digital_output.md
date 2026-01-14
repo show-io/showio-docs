@@ -8,7 +8,7 @@
 
 Sets the state of a digital output channel.
 
-### Payload
+### Arguments
 
 - Arg 0 (`int` | `float` | `True` | `False`): Output state (0/false for off, non-zero/true for on)
 

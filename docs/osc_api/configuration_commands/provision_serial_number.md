@@ -6,7 +6,7 @@
 
 Sets the device serial number in EEPROM.
 
-### Payload
+### Arguments
 
 - Arg 0 (`string`): Serial number to write
 

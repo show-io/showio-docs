@@ -6,7 +6,7 @@
 
 Queries the metadata configuration section.
 
-### Payload
+### Arguments
 
 none
 
@@ -16,6 +16,6 @@ none
 /sio/cfg/metadata
 ```
 
-### Payload
+### Arguments
 
 - Arg 0 (`string`): Metadata JSON object

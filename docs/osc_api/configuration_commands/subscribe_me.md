@@ -6,7 +6,7 @@
 
 Adds an endpoint to the list of subscribers that receive event notifications.
 
-### Payload
+### Arguments
 
 - Arg 0 (OPTIONAL - `int` | `float`): Port number of the subscriber, if necessary
 

@@ -6,7 +6,7 @@
 
 Queries the device ID configuration section.
 
-### Payload
+### Arguments
 
 none
 
@@ -16,6 +16,6 @@ none
 /sio/cfg/deviceid
 ```
 
-### Payload
+### Arguments
 
 - Arg 0 (`string`): Device ID JSON object

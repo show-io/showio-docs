@@ -6,7 +6,7 @@
 
 Removes an endpoint from the list of event notification subscribers.
 
-### Payload
+### Arguments
 
 - Arg 0 (OPTIONAL - `int` | `float`): Port number of the subscriber to remove
 

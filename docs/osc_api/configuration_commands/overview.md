@@ -1,6 +1,6 @@
-## Configuration Commands
+# Configuration Commands
 
-These OSC commands allow the user to reconfigure the ShowIO device.
+These OSC commands allow the user to reconfigure the ShowIO Node.
 
 ## Commands
 

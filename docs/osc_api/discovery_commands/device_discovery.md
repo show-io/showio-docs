@@ -6,7 +6,7 @@
 
 Responds to a discovery request with device information including name, serial number, and port.
 
-### Payload
+### Arguments
 
 - Arg 0 (`int` | `float`): Response port number
 
@@ -16,7 +16,7 @@ Responds to a discovery request with device information including name, serial n
 /sio/discovery/response
 ```
 
-### Payload
+### Arguments
 
 - Arg 0 (`string`): Device name
 - Arg 1 (`string`): Serial number

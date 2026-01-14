@@ -8,7 +8,7 @@
 
 Queries the current state of a digital input channel.
 
-### Payload
+### Arguments
 
 none
 
@@ -18,6 +18,6 @@ none
 /sio/di/{channel}
 ```
 
-### Payload
+### Arguments
 
 - Arg 0 (`int`): Input state (0 for low, 1 for high)

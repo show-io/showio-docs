@@ -6,7 +6,7 @@
 
 Sets the UDP port number used for OSC response messages.
 
-### Payload
+### Arguments
 
 - Arg 0 (`int` | `float`): UDP port number for responses
 

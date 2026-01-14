@@ -6,7 +6,7 @@
 
 Overwrites the device ID configuration section.
 
-### Payload
+### Arguments
 
 - Arg 0 (`string` | `blob`): Device ID JSON object
 

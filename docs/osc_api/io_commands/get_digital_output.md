@@ -8,7 +8,7 @@
 
 Queries the current state of a digital output channel.
 
-### Payload
+### Arguments
 
 none
 
@@ -18,6 +18,6 @@ none
 /sio/do/{channel}
 ```
 
-### Payload
+### Arguments
 
 - Arg 0 (`int`): Output state (0 for off, 1 for on)

@@ -6,7 +6,7 @@
 
 Responds to a ping request with a pong message, echoing back the provided arguments.
 
-### Payload
+### Arguments
 
 - Arg 0 (any): Message ID to echo back
 - Arg 1 (any): Additional data to echo back
@@ -17,7 +17,7 @@ Responds to a ping request with a pong message, echoing back the provided argume
 /pong
 ```
 
-### Payload
+### Arguments
 
 - Arg 0 (any): Echoed message ID from request
 - Arg 1 (any): Echoed additional data from request

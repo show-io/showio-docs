@@ -6,7 +6,7 @@
 
 Fallback handler for OSC messages that don't match any registered route. Logs the message address and arguments for debugging.
 
-### Payload
+### Arguments
 
 (any)
 

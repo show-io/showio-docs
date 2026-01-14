@@ -6,7 +6,7 @@
 
 Resets the device configuration to factory defaults.
 
-### Payload
+### Arguments
 
 none
 

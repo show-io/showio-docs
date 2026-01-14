@@ -6,7 +6,7 @@
 
 Queries the local IP configuration section.
 
-### Payload
+### Arguments
 
 none
 
@@ -16,6 +16,6 @@ none
 /sio/cfg/localip
 ```
 
-### Payload
+### Arguments
 
 - Arg 0 (`string`): Local IP JSON object

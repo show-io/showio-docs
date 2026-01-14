@@ -6,7 +6,7 @@
 
 Overwrites the metadata configuration section.
 
-### Payload
+### Arguments
 
 - Arg 0 (`string` | `blob`): Metadata JSON object
 

@@ -1,6 +1,6 @@
-## I/O Commands
+# I/O Commands
 
-These OSC commands control and query the digital I/O channels.
+These OSC commands control and query I/O channels of ShowIO Nodes.
 
 ## Commands
 

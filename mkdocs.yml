@@ -2,6 +2,7 @@
 nav:
   - Home: index.md
   - ShowIO API:
+    - Overview: osc_api/overview.md
     - Configuration Commands:
       - Overview: osc_api/configuration_commands/overview.md
       - Get Device Config: osc_api/configuration_commands/get_device_config.md
@@ -82,9 +83,9 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.snippets:
-      auto_append:
-        - includes/glossary.md
+  # - pymdownx.snippets:
+  #     auto_append:
+  #       - includes/glossary.md
 
 extra:
   generator: false

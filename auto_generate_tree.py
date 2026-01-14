@@ -194,6 +194,32 @@ def update_mkdocs_nav(mkdocs_path, osc_api_path):
         print("Could not find 'ShowIO API' section in mkdocs.yml")
         return
 
+    # Extract existing top-level entries from ShowIO API section (manual entries to preserve)
+    preserved_entries = []
+    if showio_start is not None and next_section_start is not None:
+        child_indent = showio_indent + 2
+        i = showio_start + 1
+        while i < next_section_start:
+            line = lines[i]
+            if line.strip():
+                current_indent = len(line) - len(line.lstrip())
+                # Only preserve direct children (not nested items)
+                if current_indent == child_indent and line.strip().startswith('- '):
+                    # Check if this is a top-level file (not a section with subsections)
+                    # Look ahead to see if the next line is more indented
+                    is_section = False
+                    if i + 1 < next_section_start:
+                        next_line = lines[i + 1]
+                        if next_line.strip():
+                            next_indent = len(next_line) - len(next_line.lstrip())
+                            if next_indent > child_indent:
+                                is_section = True
+
+                    # Only preserve if it's NOT a section (i.e., it's a single file entry)
+                    if not is_section:
+                        preserved_entries.append(line)
+            i += 1
+
     # Generate the new navigation tree
     new_nav_yaml = build_nav_tree_yaml(osc_api_path, indent=showio_indent + 2)
 
@@ -202,6 +228,10 @@ def update_mkdocs_nav(mkdocs_path, osc_api_path):
         ' ' * showio_indent + '- ShowIO API:\n',
     ]
 
+    # Add preserved manual entries first
+    new_section_lines.extend(preserved_entries)
+
+    # Add auto-generated navigation tree
     for line in new_nav_yaml.split('\n'):
         if line.strip():
             new_section_lines.append(line + '\n')
@@ -219,6 +249,8 @@ def update_mkdocs_nav(mkdocs_path, osc_api_path):
 
     print(f"Successfully updated {mkdocs_path}")
     print(f"Generated navigation tree for ShowIO API section")
+    if preserved_entries:
+        print(f"Preserved {len(preserved_entries)} manual top-level entry/entries")
 
 
 if __name__ == '__main__':

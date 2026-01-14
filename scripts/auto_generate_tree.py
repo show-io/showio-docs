@@ -255,8 +255,8 @@ def update_mkdocs_nav(mkdocs_path, osc_api_path):
 
 if __name__ == '__main__':
     # Paths
-    mkdocs_path = Path(__file__).parent / 'mkdocs.yml'
-    osc_api_path = Path(__file__).parent / 'docs' / 'osc_api'
+    mkdocs_path = Path(__file__).parent.parent / 'mkdocs.yml'
+    osc_api_path = Path(__file__).parent.parent / 'docs' / 'osc_api'
 
     # Update the navigation
     update_mkdocs_nav(mkdocs_path, osc_api_path)

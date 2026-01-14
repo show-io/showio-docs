@@ -2,7 +2,9 @@
 
 !!! info
 
-    Last updated January 14, 2025
+    **ShowIO is in an early stage of development. The contents of this documentation may change frequently.**
+
+    *Last updated January 14, 2025*
 
 ## Introduction
  

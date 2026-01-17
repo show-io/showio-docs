@@ -1,26 +1,32 @@
 # NAVIGATION TREE
 nav:
   - Home: index.md
+  - Getting Started:
+    - Welcome: getting_started/welcome.md
   - ShowIO API:
     - Overview: osc_api/overview.md
     - Configuration Commands:
       - Overview: osc_api/configuration_commands/overview.md
-      - Get Device Config: osc_api/configuration_commands/get_device_config.md
-      - Set Device Config: osc_api/configuration_commands/set_device_config.md
-      - Wipe Device Config: osc_api/configuration_commands/wipe_device_config.md
-      - Get Config Section - Device ID: osc_api/configuration_commands/get_config_section_device_id.md
-      - Set Config Section - Device ID: osc_api/configuration_commands/set_config_section_device_id.md
-      - Get Config Section - Metadata: osc_api/configuration_commands/get_config_section_metadata.md
-      - Set Config Section - Metadata: osc_api/configuration_commands/set_config_section_metadata.md
-      - Get Config Section - Local IP: osc_api/configuration_commands/get_config_section_local_ip.md
-      - Set Config Section - Local IP: osc_api/configuration_commands/set_config_section_local_ip.md
-      - Get Config Section - OSC: osc_api/configuration_commands/get_config_section_osc.md
-      - Set Config Section - OSC: osc_api/configuration_commands/set_config_section_osc.md
+      - Reset Device Config: osc_api/configuration_commands/reset_device_config.md
+      - Get Node Configuration Info: osc_api/configuration_commands/get_node_configuration_info.md
+      - Set Device ID: osc_api/configuration_commands/set_device_id.md
+      - Get LAN Configuration: osc_api/configuration_commands/get_lan_configuration.md
+      - Set Quick IP Prefix: osc_api/configuration_commands/set_quick_ip_prefix.md
+      - Set Quick IP Subnet: osc_api/configuration_commands/set_quick_ip_subnet.md
+      - Set Quick IP Gateway: osc_api/configuration_commands/set_quick_ip_gateway.md
+      - Set Manual IP Address: osc_api/configuration_commands/set_manual_ip_address.md
+      - Set Manual IP Subnet: osc_api/configuration_commands/set_manual_ip_subnet.md
+      - Set Manual IP Gateway: osc_api/configuration_commands/set_manual_ip_gateway.md
+      - Get OSC Configuration: osc_api/configuration_commands/get_osc_configuration.md
       - Set Response Port: osc_api/configuration_commands/set_response_port.md
+      - Set Receive Port: osc_api/configuration_commands/set_receive_port.md
       - Subscribe Me: osc_api/configuration_commands/subscribe_me.md
       - Unsubscribe: osc_api/configuration_commands/unsubscribe.md
-      - Provision Serial Number: osc_api/configuration_commands/provision_serial_number.md
+      - Add Subscriber: osc_api/configuration_commands/add_subscriber.md
+      - Remove Subscriber: osc_api/configuration_commands/remove_subscriber.md
       - Set Digital Input Event Message: osc_api/configuration_commands/set_digital_input_event_message.md
+      - Clear Digital Input Event Message: osc_api/configuration_commands/clear_digital_input_event_message.md
+      - Get Digital Input Report Message: osc_api/configuration_commands/get_digital_input_report_message.md
     - Discovery Commands:
       - Overview: osc_api/discovery_commands/overview.md
       - Device Discovery: osc_api/discovery_commands/device_discovery.md
@@ -87,6 +93,10 @@ markdown_extensions:
   # - pymdownx.snippets:
   #     auto_append:
   #       - includes/glossary.md
+
+plugins:
+  - search
+  - table-reader
 
 extra:
   generator: false

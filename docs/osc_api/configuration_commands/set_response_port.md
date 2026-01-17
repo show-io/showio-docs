@@ -1,7 +1,7 @@
 # Set Response Port
 
 ```
-/sio/cfg/responseport/set
+/sio/cfg/osc/udp/port/respond/set
 ```
 
 Sets the UDP port number used for OSC response messages.

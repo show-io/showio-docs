@@ -1,10 +1,10 @@
 # Unsubscribe
 
 ```
-/sio/unsub/me
+/sio/cfg/osc/subscribers/unsubMe
 ```
 
-Removes an endpoint from the list of event notification subscribers.
+Removes the source endpoint from the list of report message subscribers.
 
 ### Arguments
 

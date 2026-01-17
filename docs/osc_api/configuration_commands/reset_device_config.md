@@ -1,7 +1,7 @@
-# Wipe Device Config
+# Reset Device Config
 
 ```
-/sio/cfg/wipe
+/sio/cfg/reset
 ```
 
 Resets the device configuration to factory defaults.

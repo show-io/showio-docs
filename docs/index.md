@@ -2,9 +2,9 @@
 
 !!! info
 
-    **The ShowIO platform is in an early stage of development. The contents of this documentation may be incomplete or change frequently.**
+    **The ShowIO platform is still in development. The contents of this documentation may be incomplete or change frequently.**
 
-    *Last updated January 14, 2025*
+    *Last updated January 16, 2025*
 
 ## Introduction
  
@@ -12,13 +12,17 @@ Welcome to Show Technologies' documentation page! This site contains step-by-ste
 
 ## Contents
 
-:fontawesome-solid-lightbulb: **Getting Started (COMING SOON)**
+:fontawesome-solid-lightbulb: **[Getting Started](getting_started/welcome.md)**
 
 - Start here for a comprehensive walkthrough of how to start using ShowIO.
 
+:material-connection: **Integrations (COMING SOON)**
+
+- Guides on how to integrate ShowIO Nodes with your favorite show control platforms.
+
 :fontawesome-solid-book: **Cookbook (COMING SOON)**
 
-- Handy tutorials and guides for integrating Show Technolgies tech with your favorite show control systems to make cool effects.
+- Handy tutorials on how to make cool effects with ShowIO.
 
 :fontawesome-solid-microchip: **ShowIO Hardware (COMING SOON)**
 

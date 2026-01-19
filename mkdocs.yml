@@ -90,9 +90,9 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-  # - pymdownx.snippets:
-  #     auto_append:
-  #       - includes/glossary.md
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
 
 plugins:
   - search

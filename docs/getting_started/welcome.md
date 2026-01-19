@@ -20,7 +20,7 @@ ShowIO Nodes use an Ethernet link to connect to Controllers. Ethernet-based netw
 For more information about how to get an Ethernet connection set up, read our [Ethernet Guide](ethernet_guide.md)
 
 ### USB
-ShowIO Nodes also support USB communication, which makes it easy to connect to a Node with no configuration if you don't need the speed or flexible topology of Ethernet - just plug and play!
+ShowIO Nodes also support USB communication, which makes it easy to connect to a **Node** with no configuration if you don't need the speed or flexible topology of Ethernet - just plug and play!
 
 ### OSC
 All ShowIO products have first-class support for Open Sound Control (OSC). OSC is a show control protocol that most manufacturers implement in one way or another due to its simplicity and efficiency. Read our [OSC Guide](osc_guide.md) to learn more about the protocol.  

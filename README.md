@@ -107,11 +107,13 @@ Callouts can be added to a page with the following markdown:
 
 Note the indentation and the line spacing.  
 
-Currently supported callout types are `!!! info` and `!!! warning`. This will not show up in most Markdown previews, as it's special MkDocs syntax.  
+Currently supported callout types are `!!! info`, `!!! warning`, and `!!! tip`. This will not show up in most Markdown previews, as it's special MkDocs syntax.  
 
 Use info callouts to highlight meta-information.
 
 Use warning callouts to highlight potentially dangerous or unstable information, or warn the users of important constraints.
+
+Use tip callouts to give a helpful aside to the reader.
 
 ### Style Guide
 Please adhere to the following conventions to standardize our documentation:

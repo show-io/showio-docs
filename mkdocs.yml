@@ -81,6 +81,7 @@ theme:
   icon:
     admonition:
       warning: fontawesome/solid/warning
+      tip: fontawesome/solid/graduation-cap
 
 markdown_extensions:
   - abbr

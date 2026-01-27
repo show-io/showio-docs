@@ -16,6 +16,10 @@ Welcome to Show Technologies' documentation page! This site contains step-by-ste
 
 - Start here for a comprehensive walkthrough of how to start using ShowIO.
 
+:fontawesome-solid-microchip: **[Product Manuals](manuals/overview.md)**
+
+- User manuals for all ShowIO hardware products.
+
 :material-connection: **Integrations (COMING SOON)**
 
 - Guides on how to integrate ShowIO Nodes with your favorite show control platforms.
@@ -23,10 +27,6 @@ Welcome to Show Technologies' documentation page! This site contains step-by-ste
 :fontawesome-solid-book: **Cookbook (COMING SOON)**
 
 - Handy tutorials on how to make cool effects with ShowIO.
-
-:fontawesome-solid-microchip: **ShowIO Hardware (COMING SOON)**
-
-- User manuals for all ShowIO hardware products.
 
 :fontawesome-solid-network-wired: **[ShowIO API](osc_api/overview.md)**
 

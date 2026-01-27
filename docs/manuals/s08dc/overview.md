@@ -82,7 +82,7 @@ Alice has (3) ShowIO Nodes that she wants to connect to a network. She sets her 
 
 Now Alice can send messages from her laptop to all three nodes!
 
-#### Setting the IP Address with Manual IP
+#### Setting the IP Address Manually
 
 A Node's static network settings can manually be set using commands from the [OSC API](../../osc_api/overview.md). Note that this requires an existing connection to the Node. To enable manual IP mode, set the DIP switches to `0`. On next boot, the Node will have the manually set IP configuration.
 
@@ -92,3 +92,8 @@ The factory-default manual IP setting is `10.11.12.10` with a subnet mask of `25
 
 The Node can use DHCP to request an automatically assigned IP address from a DHCP server (generally, a router or managed network switch). To enable DHCP, set the DIP switches to `255`. On next boot, the Node will search for a DHCP server to request an IP address.
 
+### OSC Configuration
+
+After getting a Node connected to a LAN, any Controller on that LAN can send it OSC commands at port `UDP: 8888` (configurable).
+
+When a Controller sends a Node a Request Command, the Node will reply with a message sent to `UDP: 9999` (configurable).

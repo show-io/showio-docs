@@ -2,27 +2,32 @@
 DIAGRAMS_SRC := diagrams
 DIAGRAMS_OUT := docs/assets/diagrams
 
-# Find all .dio source files
-DIO_FILES := $(wildcard $(DIAGRAMS_SRC)/*.dio)
+# Find all .dio source files recursively
+DIO_FILES := $(shell find $(DIAGRAMS_SRC) -name '*.dio' 2>/dev/null)
 
-# Generate corresponding SVG output paths
+# Generate corresponding SVG output paths (preserving directory structure)
 SVG_FILES := $(patsubst $(DIAGRAMS_SRC)/%.dio,$(DIAGRAMS_OUT)/%.svg,$(DIO_FILES))
 
 # Default target
-.PHONY: all diagrams clean-diagrams
+.PHONY: all diagrams clean-diagrams api tree
 
 all: diagrams
+
+# Generate API documentation from OSC files
+api:
+	python process_osc_files.py
+
+# Auto-generate navigation tree
+tree:
+	python auto_generate_tree.py
 
 # Build all diagrams
 diagrams: $(SVG_FILES)
 
 # Rule to convert .dio to .svg
-$(DIAGRAMS_OUT)/%.svg: $(DIAGRAMS_SRC)/%.dio | $(DIAGRAMS_OUT)
+$(DIAGRAMS_OUT)/%.svg: $(DIAGRAMS_SRC)/%.dio
+	@mkdir -p $(dir $@)
 	drawio -x -f svg -o $@ $<
-
-# Create output directory if it doesn't exist
-$(DIAGRAMS_OUT):
-	mkdir -p $(DIAGRAMS_OUT)
 
 # Clean generated diagrams
 clean-diagrams:

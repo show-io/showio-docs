@@ -81,7 +81,7 @@ theme:
     - content.tooltips
   icon:
     admonition:
-      warning: fontawesome/solid/warning
+      warning: fontawesome/solid/helmet-safety
       tip: fontawesome/solid/graduation-cap
 
 markdown_extensions:

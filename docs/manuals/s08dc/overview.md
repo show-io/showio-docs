@@ -47,6 +47,10 @@
 
 ## Installation and Usage
 
+### DIP Switches
+
+<p align="center"><img src="../../../assets/diagrams/dip_switches/base.svg" height=200></p>
+
 ### LAN Configuration
 
 The ShowIO Digital Combo 8 uses onboard DIP switches to set its LAN (Local Area Network) configuration. Three configuration modes are available:
@@ -100,4 +104,4 @@ When a Controller sends a Node a Request Command, the Node will reply with a mes
 
 ## Channel Wiring
 
-<p align="center"><img src="../../../assets/diagrams/power.svg" height=200></p>
+<p align="center"><img src="../../../assets/diagrams/wiring/power.svg" height=200></p>

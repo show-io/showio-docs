@@ -97,3 +97,7 @@ The Node can use DHCP to request an automatically assigned IP address from a DHC
 After getting a Node connected to a LAN, any Controller on that LAN can send it OSC commands at port `UDP: 8888` (configurable).
 
 When a Controller sends a Node a Request Command, the Node will reply with a message sent to `UDP: 9999` (configurable).
+
+## Channel Wiring
+
+<p align="center"><img src="../../../assets/diagrams/power.svg" height=200></p>

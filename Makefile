@@ -15,11 +15,11 @@ all: diagrams
 
 # Generate API documentation from OSC files
 api:
-	python process_osc_files.py
+	python3 scripts/process_osc_files.py
 
 # Auto-generate navigation tree
 tree:
-	python auto_generate_tree.py
+	python3 scripts/auto_generate_tree.py
 
 # Build all diagrams
 diagrams: $(SVG_FILES)

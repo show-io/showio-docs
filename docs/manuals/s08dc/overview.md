@@ -73,6 +73,10 @@ This configuration flow should be familiar to anyone that's set a DMX address on
 
 ShowIO products ship with Quick-IP defaults `192.168.10.x` on a `255.255.255.0` subnet, where `x` is the 1-254 number set using the DIP switches. The Quick-IP address prefix, subnet, and gateway are software-configurable via OSC.
 
+For example, to set the Quick-IP to 192.168.10.**10**, you would set the second and fourth DIP switches to get the binary number `0000 1010`, or decimal 10.
+
+<p align="center"><img src="../../../assets/diagrams/dip_switches/example_ip.svg" height=200></p>
+
 ##### Quick-IP Example
 
 Alice has (3) ShowIO Nodes that she wants to connect to a network. She sets her laptop to `192.168.10.10` with a subnet mask of `255.255.255.0` and a default gateway of `192.168.10.1`. She sets the DIP switches on her three ShowIO Nodes to `30`, `31`, and `32`. She plugs all her devices into a network switch, and the network looks like:

@@ -73,23 +73,53 @@
                 <mxCell id="29" value="OFF &amp;gt;&amp;nbsp;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="110" y="170" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+                <mxCell id="30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" parent="1" vertex="1">
                     <mxGeometry x="395" y="-95" width="20" height="470" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+                <mxCell id="32" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" parent="1" vertex="1">
                     <mxGeometry x="665" y="115" width="20" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+                <mxCell id="33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" parent="1" vertex="1">
                     <mxGeometry x="725" y="115" width="20" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="IP Address Configuration" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="35" value="IP Address Configuration" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="317.5" y="100" width="175" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="Reserved" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="36" value="Reserved" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="620" y="100" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="Factory Reset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="37" value="Factory Reset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="700" y="100" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;i&gt;1&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="230" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;i&gt;2&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="230" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;i&gt;3&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="230" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;i&gt;4&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="230" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;i&gt;5&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="230" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;i&gt;6&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="230" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;i&gt;7&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="230" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;i&gt;8&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="230" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;i&gt;9&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="230" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;i&gt;10&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="230" width="50" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

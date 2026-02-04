@@ -3,10 +3,10 @@ nav:
   - Home: index.md
   - Getting Started:
     - Welcome: getting_started/welcome.md
-  - Product Manuals:
-    - Overview: manuals/overview.md
+  - Products:
+    - Overview: products/overview.md
     - Digital Combo 8:
-      - Overview: manuals/s08dc/overview.md
+      - Manual: products/s08dc/manual.md
       - Datasheet: assets/datasheet_s08dc.pdf
   - ShowIO API:
     - Overview: osc_api/overview.md

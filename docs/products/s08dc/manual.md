@@ -1,6 +1,35 @@
 # ShowIO Digital Combo 8
 
+*Product Number: SIO-S08DC*
+
 4-channel digital input + 4-channel digital output module.
+
+## Introduction
+
+The ShowIO Digital Combo 8 (SIO-S08DC) is a compact I/O node for show control and automation application. It provides 4 digital inputs and 4 digital outputs, controllable and configurable over Ethernet using the OSC protocol.
+
+### What's in the Box
+- ShowIO Digital Combo 8 Module (including enclosure, if ordered)
+- Quick start guide
+
+### Intended Applications
+
+ShowIO nodes are designed for live entertainment environments, where you need to: 
+
+- **Trigger show cues** from physical buttons or sensors
+- **Control loads** such as relays, solenoids, or valves
+- **Integrate interactive effects** into your show
+
+### Key Features
+
+| Feature | Description| 
+| --- | --- |
+| 4 digital inputs | Isolated 12-24VDC sensing with configurable event messaging |
+| 4 digital outputs | 2A per channel with overcurrent protection |
+| OSC control | Native OSC communication for easy integration with show systems |
+| Simple configuration | DIP switches for quick IP addressing (no software required for basic setup) |
+| Robust protection | Overcurrent, overvoltage, reverse polarity, and ESD protection on all channels |
+| Onboard testing | Pushbuttons and LEDs to test channels without a controller |
 
 ## Safety
 
@@ -24,28 +53,46 @@
 ## Technical Specifications
 
 ### Power Supply
-- 12-24 volt DC input
-- Resettable fuse sized for 3A continuous draw
-- Overcurrent, overvoltage, reverse voltage, and ESD protection
 
-### I/O Channels
-- (4) 12-24VDC digital inputs - isolated, 2-wire connection
-- (4) 12-24VDC digital outputs - 2A per-channel current limit
-- Rugged circuit protection on every channel
-- Easily test channels with onboard pushbuttons and indicator lights
+Power can be supplied to the ShowIO node via the DC Power Input terminal block. There are two terminals for V+, and two terminals for 0V, internally connected. The DC power input can handle 12 to 24 volts DC.
 
-### Connectivity
-- OSC communication for easy connection to most show control systems
-- 10/100 Ethernet port
-- DIP switches for quick configuration of LAN settings
-- Supports static IP addressing and DHCP
-- USB serial port
+Additionally, the node can be powered via 5V USB for testing and configuration. When powered via USB, the digital output channels are disabled. 
 
-### Software
-- Regular firmware updates with bug fixes and new features
-- Implements ShowIO API
+#### Power Supply Selection
 
-## Installation and Usage
+The power supply should be chosen based on the types of loads you intend to connect to the digital output channels. 
+
+#### Circuit Protection
+
+The power supply has the following protection measures. Refer to the product datasheet for more information.
+
+| Protection Measure | Fault Description |
+| --- | --- |
+| Resettable Fuse | The resettable fuse will trip at 5 amps, limiting the current draw of the node. The fuse will sustain 3 amps draw without tripping. |
+| Reverse Voltage Blocking | If a negative voltage is applied to (V+, 0V), the voltage is blocked from being applied to the rest of the node. | 
+| Overvoltage Crowbar | If the supply voltage exceeds safe limits, the resettable fuse will trip. |
+
+### Digital Inputs
+
+#### Electrical Model
+
+<p align="center"><img src="../../../assets/diagrams/channel_models/digital_input_base.svg" height=200></p>
+
+Each digital input channel drives an optoisolator inside the node. The input is totally isolated from the rest of the node; it only needs a positive voltage across the two terminals to trigger the channel.
+
+#### Channel Wiring Example
+
+<p align="center"><img src="../../../assets/diagrams/wiring/digital_input.svg" height=200></p>
+
+### Digital Outputs
+
+#### Electrical Model
+
+<p align="center"><img src="../../../assets/diagrams/channel_models/digital_output_base.svg" height=200></p>
+
+Each digital output channel is driven by a load controller that includes a P-channel MOSFET. The MOSFET sources from the node's DC power input. The 0V terminals provide a convenient location to connect a return path for a load, and are internally connected to the 0V terminals at the DC power input.
+
+## Network Configuration
 
 ### DIP Switches
 
@@ -105,7 +152,3 @@ The Node can use DHCP to request an automatically assigned IP address from a DHC
 After getting a Node connected to a LAN, any Controller on that LAN can send it OSC commands at port `UDP: 8888` (configurable).
 
 When a Controller sends a Node a Request Command, the Node will reply with a message sent to `UDP: 9999` (configurable).
-
-## Channel Wiring
-
-<p align="center"><img src="../../../assets/diagrams/wiring/power.svg" height=200></p>

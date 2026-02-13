@@ -102,8 +102,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - table-reader
-
+  
 extra:
   generator: false
   social:

@@ -8,6 +8,7 @@ nav:
     - Digital Combo 8:
       - Manual: products/s08dc/manual.md
       - Datasheet: assets/datasheet_s08dc.pdf
+      - Changelog: products/s08dc/changelog.md
   - ShowIO API:
     - Overview: osc_api/overview.md
     - Configuration Commands:
